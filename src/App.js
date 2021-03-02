@@ -68,7 +68,6 @@ const mapStateToProps = ({ user }) => ({
 const mapDispatchToProps = (dispatch) => ({
   setCurrentUser: (user) => {
     // setCurrentUserProps
-    console.log('hola', user);
 
     dispatch(setCurrentUser(user)); // setCurrentUserAction
   },
